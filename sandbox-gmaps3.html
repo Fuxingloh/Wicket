@@ -193,7 +193,7 @@ var app = (function () {
                 if (!this.loaded) {
                     this.loaded = true;
                     // NOTE: We start with a MULTIPOLYGON; these aren't easily deconstructed, so we won't set this object to be editable in this example
-                    document.getElementById('wkt').value = 'MULTIPOLYGON (((40 40, 20 45, 45 30, 40 40)), ((20 35, 10 30, 10 10, 30 5, 45 20, 20 35), (30 20, 20 15, 20 25, 30 20)))';
+                    document.getElementById('wkt').value = 'POLYGON((103.84002685546875 1.370960764173969,103.86955261230469 1.3373245311860373,103.79402160644531 1.346248475137877,103.84002685546875 1.370960764173969))';
                     app.mapIt();
                 }
             });
